@@ -2,7 +2,6 @@ html {
   margin: 20px;
 }
 
-
 body {
   background-color: rgb(218, 235, 255);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -14,6 +13,7 @@ h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 50px;
   text-align: center;
+  border-radius: 50%;
 }
 
 p {
@@ -22,17 +22,27 @@ p {
   font-size: 30px;
   text-align: center;
 }
+
 h1 {
   border: 10px solid rgb(92, 120, 214);
 }
 
-.circle {
-  height: 100px;
-  width: 100px;
+div.ball{
+  width: 60px;
+  height: 60px;
   background-color: red;
-  border-radius: 50%;
-
+  border-radius: 50px;
 }
-.button{
-  border-radius: 12px;
+
+.circle {
+   height: 25px;
+  width: 25px;
+  background-color: #9a1111;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+br {
+  background-color: aliceblue;
+
 }
