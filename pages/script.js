@@ -22,8 +22,8 @@ document.getElementById('initialImage').addEventListener('click', function() {
 
   // Append the new image to the container
   document.getElementById('newImageContainer').appendChild(newImage);
-
 });
+
 
 //SECOND ROUND
 document.getElementById('ThirdImage').addEventListener('click', function() {
@@ -36,7 +36,90 @@ document.getElementById('ThirdImage').addEventListener('click', function() {
   document.getElementById('ThirdImageContainer').appendChild(ThirdImage);
 });
 
+
 //THIRD ROUND
+document.getElementById('secondImage').addEventListener('click', function() {
+  // Create a new image element
+  var secondImage = document.createElement('img');
+  secondImage.src = "../step_2/ball.png"; // Path to the new image
+  secondImageImage.width = 300;
+
+  // Append the new image to the container
+  document.getElementById('secondImageContainer').appendChild(secondImage);
+});
+
+//FOURTH ROUND
+document.getElementById('secondImage').addEventListener('click', function() {
+  // Create a new image element
+  var secondImage = document.createElement('img');
+  secondImage.src = "../step_2/ball.png"; // Path to the new image
+  secondImageImage.width = 300;
+
+  // Append the new image to the container
+  document.getElementById('secondImageContainer').appendChild(secondImage);
+});
+
+//FIFTH ROUND
+document.getElementById('initialImage').addEventListener('click', function() {
+  // Create a new image element
+  var newImage = document.createElement('img');
+  newImage.src = "../step_2/ball.png"; // Path to the new image
+  newImage.width = 300;
+
+  // Append the new image to the container
+  document.getElementById('newImageContainer').appendChild(newImage);
+});
+
+
+//SIXTH ROUND
+document.getElementById('secondImage').addEventListener('click', function() {
+  // Create a new image element
+  var secondImage = document.createElement('img');
+  secondImage.src = "../step_2/ball.png"; // Path to the new image
+  secondImageImage.width = 300;
+
+  // Append the new image to the container
+  document.getElementById('secondImageContainer').appendChild(secondImage);
+});
+
+
+
+//SEVENTH ROUND
+document.getElementById('secondImage').addEventListener('click', function() {
+  // Create a new image element
+  var secondImage = document.createElement('img');
+  secondImage.src = "../step_2/ball.png"; // Path to the new image
+  secondImageImage.width = 300;
+
+  // Append the new image to the container
+  document.getElementById('secondImageContainer').appendChild(secondImage);
+});
+
+
+
+//EIGHTH ROUND
+document.getElementById('secondImage').addEventListener('click', function() {
+  // Create a new image element
+  var secondImage = document.createElement('img');
+  secondImage.src = "../step_2/ball.png"; // Path to the new image
+  secondImageImage.width = 300;
+
+  // Append the new image to the container
+  document.getElementById('secondImageContainer').appendChild(secondImage);
+});
+
+//NINETH ROUND
+document.getElementById('secondImage').addEventListener('click', function() {
+  // Create a new image element
+  var secondImage = document.createElement('img');
+  secondImage.src = "../step_2/ball.png"; // Path to the new image
+  secondImageImage.width = 300;
+
+  // Append the new image to the container
+  document.getElementById('secondImageContainer').appendChild(secondImage);
+});
+
+//TENTH ROUND
 document.getElementById('secondImage').addEventListener('click', function() {
   // Create a new image element
   var secondImage = document.createElement('img');
