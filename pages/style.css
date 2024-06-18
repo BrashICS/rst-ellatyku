@@ -26,23 +26,3 @@ p {
 h1 {
   border: 10px solid rgb(92, 120, 214);
 }
-
-div.ball{
-  width: 60px;
-  height: 60px;
-  background-color: red;
-  border-radius: 50px;
-}
-
-.circle {
-   height: 25px;
-  width: 25px;
-  background-color: #9a1111;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-br {
-  background-color: aliceblue;
-
-}
